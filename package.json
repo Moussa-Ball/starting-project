@@ -34,5 +34,9 @@
     "bootstrap": "^4.0.0-beta.2",
     "jquery": "^3.2.1",
     "popper.js": "^1.12.6"
+  },
+  "scripts": {
+    "preshrinkwrap": "git checkout -- npm-shrinkwrap.json",
+    "postshrinkwrap": "git checkout -- npm-shrinkwrap.json"
   }
 }
